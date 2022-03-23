@@ -31,5 +31,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             else -> throw IllegalArgumentException("Invalid button")
         }
+
+        startActivity(intent)
     }
 }
